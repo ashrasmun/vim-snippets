@@ -218,6 +218,11 @@ migrate_lib_20_up
 
 will do it then if syntax has changed.
 
+Problems with commits / pushes etc.
+--------------------
+
+If you ever encounter a problem where you cannot push your changes, just go to .git/config and change the \[remote "origin"\] URL to point to github.com instead of @github::github.com
+
 Language maintainers
 --------------------
 
